@@ -54,9 +54,14 @@ module.exports = {
   				'5': 'hsl(var(--chart-5))'
   			},
   			'taxi-yellow': '#FFD700',
+  			'whatsapp-green': '#25D366',
   			yellow: {
   				'400': '#FBBF24',
   				'500': '#F59E0B'
+  			},
+  			green: {
+  				'500': '#10B981',
+  				'600': '#059669'
   			}
   		},
   		keyframes: {
