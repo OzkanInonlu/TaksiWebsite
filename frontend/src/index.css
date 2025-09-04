@@ -25,6 +25,8 @@ code {
   --taxi-yellow-dark: #FFC700;
   --taxi-black: #000000;
   --taxi-gray: #333333;
+  --whatsapp-green: #25D366;
+  --whatsapp-green-dark: #1DA851;
 }
 
 @layer base {
