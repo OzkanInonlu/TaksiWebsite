@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,6 +11,7 @@ body {
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
 }
 
 code {
@@ -16,7 +19,13 @@ code {
         monospace;
 }
 
-
+/* Custom Taxi Theme Colors */
+:root {
+  --taxi-yellow: #FFD700;
+  --taxi-yellow-dark: #FFC700;
+  --taxi-black: #000000;
+  --taxi-gray: #333333;
+}
 
 @layer base {
   :root {
@@ -74,8 +83,6 @@ code {
     }
 }
 
-
-
 @layer base {
   * {
     @apply border-border;
@@ -83,4 +90,69 @@ code {
   body {
     @apply bg-background text-foreground;
     }
+}
+
+/* Custom Components */
+@layer components {
+  .font-serif {
+    font-family: 'Crimson Text', 'Times New Roman', serif;
+  }
+  
+  /* Taxi Yellow Theme */
+  .bg-taxi-yellow {
+    background-color: var(--taxi-yellow);
+  }
+  
+  .text-taxi-yellow {
+    color: var(--taxi-yellow);
+  }
+  
+  .border-taxi-yellow {
+    border-color: var(--taxi-yellow);
+  }
+  
+  .hover\:bg-taxi-yellow:hover {
+    background-color: var(--taxi-yellow);
+  }
+  
+  .hover\:text-taxi-yellow:hover {
+    color: var(--taxi-yellow);
+  }
+  
+  /* Smooth Animations */
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+  }
+  
+  /* Image Hover Effects */
+  .hover-scale {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-scale:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Button Hover Effects */
+  .btn-hover {
+    transition: all 0.2s ease;
+  }
+  
+  .btn-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* Custom Utilities */
+@layer utilities {
+  .line-height-relaxed {
+    line-height: 1.6;
+  }
+  
+  .line-height-loose {
+    line-height: 1.8;
+  }
 }
