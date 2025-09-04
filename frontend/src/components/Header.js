@@ -130,7 +130,10 @@ const Header = () => {
               </div>
 
               {/* Mobile Call Button */}
-              <Button className="w-full bg-taxi-yellow hover:bg-yellow-500 text-black font-semibold">
+              <Button 
+                className="w-full bg-taxi-yellow hover:bg-yellow-500 text-black font-semibold"
+                onClick={() => window.location.href = `tel:${contactInfo.northCyprusPhone}`}
+              >
                 <Phone className="h-4 w-4 mr-2" />
                 {t.hero.callButton}
               </Button>
