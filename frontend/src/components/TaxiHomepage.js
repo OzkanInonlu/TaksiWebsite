@@ -34,8 +34,7 @@ const TaxiHomepage = () => {
                 </Button>
                 <Button 
                   size="lg" 
-                  variant="outline" 
-                  className="border-black text-black hover:bg-black hover:text-white font-semibold px-8 py-4 text-lg"
+                  className="bg-whatsapp-green hover:bg-whatsapp-green-dark text-white font-semibold px-8 py-4 text-lg"
                   onClick={() => window.open(contactInfo.whatsappLink, '_blank')}
                 >
                   <MessageCircle className="h-5 w-5 mr-2" />
