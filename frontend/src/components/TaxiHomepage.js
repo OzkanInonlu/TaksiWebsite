@@ -49,12 +49,12 @@ const TaxiHomepage = () => {
                 <img 
                   src={taxiPhotos[0]} 
                   alt="Erkan Özdemir Taxi" 
-                  className="rounded-lg shadow-2xl hover:scale-105 transition-transform duration-300 w-full h-48 object-cover"
+                  className="rounded-lg shadow-2xl hover:scale-105 transition-transform duration-300 w-full h-72 object-cover"
                 />
                 <img 
                   src={taxiPhotos[1]} 
                   alt="Professional Taxi Service" 
-                  className="rounded-lg shadow-2xl hover:scale-105 transition-transform duration-300 w-full h-48 object-cover"
+                  className="rounded-lg shadow-2xl hover:scale-105 transition-transform duration-300 w-full h-72 object-cover mt-8"
                 />
               </div>
             </div>
