@@ -52,6 +52,11 @@ module.exports = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
+  			},
+  			'taxi-yellow': '#FFD700',
+  			yellow: {
+  				'400': '#FBBF24',
+  				'500': '#F59E0B'
   			}
   		},
   		keyframes: {
