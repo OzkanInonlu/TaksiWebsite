@@ -120,6 +120,27 @@ code {
   .hover\:text-taxi-yellow:hover {
     color: var(--taxi-yellow);
   }
+
+  /* WhatsApp Green Theme */
+  .bg-whatsapp-green {
+    background-color: var(--whatsapp-green);
+  }
+  
+  .text-whatsapp-green {
+    color: var(--whatsapp-green);
+  }
+  
+  .border-whatsapp-green {
+    border-color: var(--whatsapp-green);
+  }
+  
+  .hover\:bg-whatsapp-green:hover {
+    background-color: var(--whatsapp-green);
+  }
+  
+  .hover\:bg-whatsapp-green-dark:hover {
+    background-color: var(--whatsapp-green-dark);
+  }
   
   /* Smooth Animations */
   .transition-all {
