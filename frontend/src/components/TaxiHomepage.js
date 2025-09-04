@@ -104,14 +104,14 @@ const TaxiHomepage = () => {
               <img 
                 src={taxiPhotos[2]} 
                 alt="Professional Mercedes Taxi" 
-                className="rounded-lg shadow-xl w-full h-96 object-cover"
+                className="rounded-lg shadow-xl w-full h-[28rem] object-cover"
               />
             </div>
             <div className="flex flex-col justify-start">
               <img 
                 src={taxiPhotos[3]} 
                 alt="Cyprus Taxi Service" 
-                className="rounded-lg shadow-xl w-full h-96 object-cover"
+                className="rounded-lg shadow-xl w-full h-[28rem] object-cover"
               />
             </div>
           </div>
