@@ -204,7 +204,7 @@ const TaxiHomepage = () => {
           <div className="text-center">
             <Button 
               size="lg" 
-              className="bg-taxi-yellow text-black hover:bg-yellow-500 font-bold px-12 py-4 text-xl"
+              className="bg-whatsapp-green hover:bg-whatsapp-green-dark text-white font-bold px-12 py-4 text-xl"
               onClick={() => window.open(contactInfo.whatsappLink, '_blank')}
             >
               <MessageCircle className="h-6 w-6 mr-3" />
