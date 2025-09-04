@@ -73,7 +73,7 @@ export const translations = {
     // About Section
     about: {
       title: "About Me",
-      description: "Hello, I am Erkan Özdemir. With years of experience, I provide safe and comfortable driving service to you. I offer professional taxi service to every corner of Cyprus. Need a taxi? Address is known.",
+      description: "Hello, I am Erkan Özdemir. With my years of experience, I provide safe, comfortable and timely transportation service to you. I provide professional taxi service to every region of Cyprus, making your journeys pleasant and trouble-free.",
       experience: "15+ Years Experience",
       service: "24/7 Service",
       coverage: "Cyprus Wide"
