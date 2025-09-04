@@ -76,7 +76,10 @@ const Header = () => {
             </DropdownMenu>
 
             {/* Call Button */}
-            <Button className="bg-taxi-yellow hover:bg-yellow-500 text-black font-semibold">
+            <Button 
+              className="bg-taxi-yellow hover:bg-yellow-500 text-black font-semibold"
+              onClick={() => window.location.href = `tel:${contactInfo.northCyprusPhone}`}
+            >
               <Phone className="h-4 w-4 mr-2" />
               {t.hero.callButton}
             </Button>
