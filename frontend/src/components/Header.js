@@ -3,6 +3,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { Button } from './ui/button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu';
 import { Menu, X, Phone, Globe } from 'lucide-react';
+import { contactInfo } from '../data/mockData';
 
 const Header = () => {
   const { t, currentLanguage, changeLanguage, languages } = useLanguage();
