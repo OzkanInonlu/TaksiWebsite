@@ -19,7 +19,7 @@ export const translations = {
     // About Section
     about: {
       title: "Hakkımda",
-      description: "Ben Erkan Özdemir. Tek şoför olarak, yılların deneyimiyle güvenli ve konforlu sürüş hizmeti sunuyorum. Kıbrıs'ın her noktasına profesyonel taksi hizmeti veriyorum.",
+      description: "Merhaba, ben Erkan Özdemir. Yılların deneyimiyle sizlere güvenli ve konforlu sürüş hizmeti sunuyorum. Kıbrıs'ın her noktasına profesyonel taksi hizmeti veriyorum. Taksi mi lazım? Adres belli.",
       experience: "15+ Yıl Deneyim",
       service: "7/24 Hizmet",
       coverage: "Kıbrıs Geneli"
